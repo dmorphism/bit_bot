@@ -4,8 +4,8 @@ from alpaca_trade_api.rest import REST, TimeFrame
 import pandas as pd
 
 BASE_URL = "https://paper-api.alpaca.markets"
-KEY_ID = "PK4WYD4BWSKOROFOAON4"
-SECRET_KEY = "JVnhLodNhlHV6zVU87Eu62jW33E8TJU6tFXDGidv"
+KEY_ID = "<KEY_ID>"
+SECRET_KEY = "SECRECT_KEY"
 
 # Instantiate REST API Connection
 api = REST(key_id=KEY_ID,secret_key=SECRET_KEY,base_url="https://paper-api.alpaca.markets")
